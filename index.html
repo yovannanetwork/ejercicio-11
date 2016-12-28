@@ -10,10 +10,10 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div class="fondo">
     <div class="container">
-        <div class="row">
+        <div class="row editor">
            <h1>Positivo Negativo</h1>
-            <div>
                <p>Dados 2 valores enteros a y b: <br> * Retorna 1 si uno es positivo y otro negativo <br> * Excepto si el parametro negative es true <br> entonces retorna 1 solo si ambos son negativos. <br> * Caso contrario retorna 0.</p>
                 <p>
                     <label for="a">a</label>
@@ -25,16 +25,15 @@
                     <label for="">Parametro negative</label>
                     <select name="" id="valor">
                         <option value="1">true</option>
-                        <option value="2">false</option>
                     </select>
                 </p>
                 <p>
                     <button onclick="calcular()">Calcular</button>
                 </p>
-                <div id="salida"  class="form-control"></div>
-            </div>
+                <div id="salida"  class="form-control caja"></div>
         </div>
-    </div>
+     </div>
+  </div>
 </body>
 <script src="main.js"></script>
 </html>

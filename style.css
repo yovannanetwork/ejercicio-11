@@ -1,0 +1,15 @@
+
+.fondo{
+    background-image: url(img/puntacana4.jpg);
+    background-size: cover;
+    height: 660px; 
+}
+.editor{
+    background-color: rgba(97, 222, 227, 0.79);
+    margin: 120px auto;
+    padding: 20px;
+    
+}
+.editor .caja{
+    width: 20%;
+}
