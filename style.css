@@ -13,3 +13,9 @@
 .editor .caja{
     width: 20%;
 }
+.codigo{
+    margin: 20px 0 0 0;
+}
+.codigo a{
+    color: blue;
+}
